@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header > nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(175, 234, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+.menù {
+    background-color: orange;
+    display: flex;
+    flex-flow: row;
+    width: 60%;
+    height: 35px;   
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#logo, #collegamenti, #login {
+    border-style: dotted ;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    width: 25%;
+}
+
+#collegamenti {
+    flex-flow: row;
+    justify-content: center;
+    width: 50%;
+    list-style-type: none ;
+    gap: 7px; 
+}
+
+#login {
+    width: 25%;  
+    justify-content: flex-end; 
+    text-decoration: none;
+}
