@@ -28,14 +28,14 @@ a{
     color: black;
 }
 
-#logo, #collegamenti, #login {
+.logo, #collegamenti, #login {
     border-style: dotted ;
     padding: 5px;
     display: flex;
     align-items: center;
 }
 
-#logo {
+.logo {
     width: 25%;
 }
 
@@ -133,8 +133,32 @@ a{
 .verdeacqua {
     width: 12.5%;
     height: 95%;
-    background-color: rgb(91, 206, 187);
+    background-color: rgb(76, 223, 198);
     border-style: dotted;
     border-color: white;
 }
  
+#fine{
+    display: flex;
+    justify-content: center;
+}
+.footer-seconda-parte {
+    background-color: rgb(159, 236, 159);
+    width: 75%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;  
+}
+    
+#logo {
+    background-color: rgb(197, 97, 97) ;
+    padding: 2px;
+    border: dotted black;
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(197, 97, 97);
+    border: dotted black;
+}
