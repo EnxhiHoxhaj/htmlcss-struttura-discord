@@ -52,3 +52,18 @@ a{
     justify-content: flex-end; 
     text-decoration: none;
 }
+
+#img-testata {
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+
+#titolo {
+    width: 50%;
+    height: 400px;
+    background-color: rgb(241, 147, 236);
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
